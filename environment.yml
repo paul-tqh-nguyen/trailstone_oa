@@ -1,0 +1,17 @@
+name: trailstone_oa
+dependencies:
+  - python>=3.11
+  - black
+  - conda-forge::autoflake
+  - isort
+  - mypy
+  - conda-forge::types-pytz
+  - conda-forge::types-requests
+  - conda-forge::pandas-stubs
+  - requests
+  - pytables
+  - fastapi>=0.98.0
+  - pandas>=2.0.3
+  - starlette>=0.27.0
+  - uvicorn>=0.22.0 
+  - structlog>=23.1.0
